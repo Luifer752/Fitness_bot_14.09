@@ -14,11 +14,11 @@ This bot is built in Python and integrated with the Telegram Bot API.
 * You must have an SSH key generated before executing the commands
 1. Clone the repository:
    ```shell
-   git clone git@github.com:vladysllav/FitnessBot.git
+   git clone https://github.com/Luifer752/Fitness_bot_14.09.git
    ```
    because of the firewall settings, the command may not work, then we use
    ```shell
-   git clone https://github.com/vladysllav/FitnessBot.git
+   git clone https://github.com/Luifer752/Fitness_bot_14.09.git
    ```
 2. Install the required dependencies using Poetry:
   *Check if Poetry is installed
@@ -28,14 +28,14 @@ This bot is built in Python and integrated with the Telegram Bot API.
    if installed, execute
 
    ```shell
-   cd FitnessBot/src/ poetry install
+   cd Fitness_bot_14.09/src/ poetry install
    ```
 
    if not installed, execute
    ```shell
    curl -sSL https://install.python-poetry.org | python -
    ```
-   then add poerty to the PATH variable
+   then add poetry to the PATH variable
 Copy the path to the folder with the installed poetry. It is listed in the installation output and looks something like this:
 C:\Users\273C~1\AppData\Roaming\Python\Scripts # example (You will have a different address)
 Open the Control Panel and go to "System" (System) > "Advanced system settings" (Advanced system settings).
@@ -53,12 +53,12 @@ Try running:
    and 
 
    ```shell
-   cd FitnessBot/src/ poetry install
+   cd Fitness_bot_14.09/src/ poetry install
    ``` 
 
 3. Create a `.env` file based on the `.env.example` file:
    ```shell
-   cd FitnessBot
+   cd Fitness_bot_14.09
    ```
    ```shell
    cp .env.example .env
@@ -67,7 +67,7 @@ Try running:
 ## Usage
    To start the Fitness Telegram Bot, run the following command:
    ```shell
-   cd FitnessBot/src/
+   cd Fitness_bot_14.09/src/
    ```
    ```shell
    poetry shell
